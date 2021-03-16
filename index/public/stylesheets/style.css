@@ -61,7 +61,7 @@ a {
   flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-items: flex-start;
 
   height: 100%;
@@ -95,6 +95,7 @@ a {
 }
 
 .Message {
+  margin: 0 auto;
   background: white;
   padding: 30px;
   border-bottom: var(--ui-shadow-border);
@@ -125,7 +126,7 @@ a {
   align-items: center;
 
   height: 55px;
-  width: 150px;
+  width: 300px;
 
   background: #fa4141;
 
@@ -139,4 +140,6 @@ a {
 
   border-bottom: var(--ui-shadow-border);
   box-shadow: var(--ui-shadow);
+  padding: 20px;
+  text-align: center;
 }

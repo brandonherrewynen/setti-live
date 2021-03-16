@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/repositories/setti-live/
+    - /index/views index.pug $DEPLOYPATH
+    - /index/public/stylesheets style.css $DEPLOYPATH
