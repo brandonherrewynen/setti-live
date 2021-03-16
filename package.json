@@ -1,7 +1,6 @@
 {
   "name": "setti-live",
   "version": "1.0.0",
-  "description": "",
   "main": "app.js",
   "scripts": {
     "start": "app.js"
@@ -18,5 +17,7 @@
   "homepage": "https://github.com/brandonherrewynen/setti-live#readme",
   "dependencies": {
     "express": "^4.17.1"
-  }
+  },
+  "devDependencies": {},
+  "description": ""
 }
